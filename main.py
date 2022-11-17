@@ -28,4 +28,5 @@ def resumo():
 def portfolio(): 
     return render_template('portfolio.html')
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)

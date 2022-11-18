@@ -16,10 +16,6 @@ def index():
                             github=github,
                             nome=nome)
 
-@app.route('/sobre')
-def sobre():    
-    return render_template('sobre.html')
-
 @app.route('/resumo')
 def resumo():
     return render_template('resumo.html')
